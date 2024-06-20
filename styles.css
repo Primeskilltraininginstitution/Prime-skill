@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    min-height: 100vh;
  }
 
 body {
@@ -309,22 +309,18 @@ main {
     flex-direction: column;
 }
 
-.card{
-
- 
-}
 
 .content1 img{
-    width: 400px;
+    width: 200px;
 }
 
 .content2 img{
-    width: 400px;
+    width: 200px;
     
 }
 
 .content3 img{
-    width: 400px;
+    width: 200px;
     
 }
 
@@ -365,5 +361,54 @@ form button {
 
 form button:hover {
     background: #555;
+}
+
+footer p{
+    font-size: 8px;
+  }
+ footer h2{
+  
+    font-size: 10px;
+ }
+
+ header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 10px;
+}
+
+.social img {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform 0.3s ease-in-out; 
+  }
+
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    font-size: 8px;
+}
+
+section .card {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 200px;
+    transition: 0.15s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
 }
 }
