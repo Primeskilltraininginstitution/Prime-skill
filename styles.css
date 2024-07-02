@@ -18,40 +18,65 @@
 body {
     min-height: 100vh;
     margin: 0;
-    padding: 20px;
+    
     
 }
-
+header {
+    color: white;
+    padding: 80px 0;
+    width: 100%;
+    position: fixed;
+}
 header {
     background: #333;
     color: #fff;
-    padding: 1em 0;
     text-align: center;
+    width: 100%;
     
 }
 
 header h1 {
-    margin: 0;
-    font-size: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 400px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3%;
+    border-bottom: 1px solid #000;
+    z-index: 10;
+
+}
+
+
+nav .logo{
+    width: 180px;
+    border-radius: 900px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    padding: 0;
     text-align: center;
-    margin: 0; 
-    padding: 0; 
-    font-size: 25px;
 }
 
 nav ul li {
-    display: inline-flex;
-    margin: 0 1em;
+    display: inline-block;
+    margin: 10px 50px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    
 }
 
 nav a:hover {
@@ -90,11 +115,16 @@ footer {
 }
 
 form {
+    height: 800px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 700px;
+    max-width: 100%;
     border: #333 solid;
+    background-image: url('assets/Total Station Operation form.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 form input {
@@ -139,17 +169,45 @@ form button:hover {
         align-items: center;
     justify-content: center;
     text-align: center;
+    
         }
 
         
 
-        section .card {
+        section .card1 {
             justify-content: center;
             justify-items: center;
             align-items: center;
             text-align: center;
             width: 500px;
-            height: 600px;
+            height: 400px;
+            transition: 0.15s;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            
+        }
+
+
+        section .card2 {
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            width: 500px;
+            height: 400px;
+            transition: 0.15s;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+
+        
+        section .card3 {
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            width: 500px;
+            height: 400px;
             transition: 0.15s;
             transform-style: preserve-3d;
             perspective: 1000px;
@@ -161,20 +219,64 @@ form button:hover {
             height: 100%;
             transition: 0.5s;
             backface-visibility: hidden;
+            
         }
 
-        .card .face.face1 {
-            background: white;
+        .card1 .face.face1 {
+           border: #333 4px solid;
             display: flex;
             justify-content: center;
             align-items: center;
             z-index: 1;
             transform: rotateY(0deg);
-           
+            background-repeat: no-repeat;
+            background-position: center;
+           background-attachment: fixed;
+           background-size: contain;
+           background-repeat: no-repeat;
+            background-position: center;
+           background-attachment: fixed;
+           background-size: cover;
+           background-image: url('assets/TS.jpg');
         }
 
+        .card2 .face.face1 {
+            border: #333 4px solid;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             z-index: 1;
+             transform: rotateY(0deg);
+             background-repeat: no-repeat;
+             background-position: center;
+            background-attachment: fixed;
+            background-size: contain;
+            background-repeat: no-repeat;
+             background-position: center;
+            background-attachment: fixed;
+            background-size: contain;
+            background-image: url('assets/FULL\ LOGO.PNG');
+         }
+
+         .card3 .face.face1 {
+            border: #333 4px solid;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             z-index: 1;
+             transform: rotateY(0deg);
+             background-repeat: no-repeat;
+             background-position: center;
+            background-attachment: fixed;
+            background-size: contain;
+            background-repeat: no-repeat;
+             background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            background-image: url('assets/TS1.jpg');
+         }
+
         .card:hover .face.face1 {
-            background: white;
             transform: rotateY(180deg);
         }
 
@@ -197,19 +299,7 @@ form button:hover {
             text-align: center;
         }
 
-    .content1 img{
-        width: 450px;
-    }
-
-    .content2 img{
-        width: 600px;
-        
-    }
-
-    .content3 img{
-        width: 450px;
-        
-    }
+ 
 
         .content h3 a {
             color: black;
@@ -260,45 +350,80 @@ form button:hover {
 
 
  .carousel {
-    width: 60%;
-    overflow: hidden;
     position: relative;
-  }
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: #333 solid 2px;
+margin-bottom: 200px;
 
-  .carousel-container {
+
+}
+
+.carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
-  }
+    
+}
 
-  .carousel-item {
-    width: 50px;
-    flex-shrink: 0;
-  }
+.carousel-item {
+    min-width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+}
 
-  .prev, .next {
-    cursor: pointer;
+button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0,0,0,0.5);
     color: white;
+    border: black solid 2px;
     padding: 10px;
-  }
+    cursor: pointer;
+    border-radius: 50%;
+    user-select: none;
+}
 
-  .prev {
-    left: 0;
-  }
+button:hover {
+    background-color: rgba(0,0,0,0.7);
+}
 
-  .next {
-    right: 0;
-  }
-  
- @media (max-width: 720px) {
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.carousel-item img{
+    width: 200px;
+    
+    
+    
+}
+
+.carousel h2{
+    text-align: center;
+}
+
+/* Extra Small Devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
     body {
         min-height: 100vh;
-        width: 100%;
-        font-size: 8%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        font-size: 4%;
     }
+
 
 main {
 
@@ -310,19 +435,7 @@ main {
 }
 
 
-.content1 img{
-    width: 200px;
-}
 
-.content2 img{
-    width: 200px;
-    
-}
-
-.content3 img{
-    width: 200px;
-    
-}
 
 form {
     margin-top: 20px;
@@ -400,12 +513,40 @@ header h1 {
     font-size: 8px;
 }
 
-section .card {
+
+section .card1 {
     justify-content: center;
     justify-items: center;
     align-items: center;
     text-align: center;
-    width: 100px;
+    width: 400px;
+    height: 200px;
+    transition: 0.15s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    
+}
+
+
+section .card2 {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 200px;;
+    transition: 0.15s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+
+section .card3 {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
     height: 200px;
     transition: 0.15s;
     transform-style: preserve-3d;
