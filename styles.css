@@ -501,12 +501,12 @@ section .card1 {
     justify-items: center;
     align-items: center;
     text-align: center;
-   width: 400px;
+    width: 300px;
     height: 200px;
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
-    
+
 }
 
 
@@ -515,7 +515,7 @@ section .card2 {
     justify-items: center;
     align-items: center;
     text-align: center;
-    width: 400px;
+    width: 300px;
     height: 200px;;
     transition: 0.15s;
     transform-style: preserve-3d;
@@ -528,7 +528,7 @@ section .card3 {
     justify-items: center;
     align-items: center;
     text-align: center;
-    width: 400px;
+    width: 300px;
     height: 200px;
     transition: 0.15s;
     transform-style: preserve-3d;
