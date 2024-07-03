@@ -17,6 +17,7 @@
  }
 
 
+
  body {
     min-height: 100vh;
     margin: 0;
@@ -165,6 +166,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding-top: 0px;
+    margin-top: -10%;
 }
 
 
@@ -352,19 +354,13 @@ footer {
   }
 
   footer {
-    background: #333;
-    color: #fff;
+    background: rgb(55,46,213);
+    background: linear-gradient(90deg, rgba(55,46,213,0) 19%, rgba(87,86,214,0.927608543417367) 100%);
     text-align: center;
     padding: 1em 0;
     width: 100%;
     padding-top: 0px;
     position: relative; 
-}
-
-
-footer {
-    background: rgb(55,46,213);
-    background: linear-gradient(90deg, rgba(55,46,213,0) 19%, rgba(87,86,214,0.927608543417367) 100%);
 }
 
 footer p {
@@ -383,7 +379,7 @@ footer h2 {
 .carousel {
     position: relative;
     display: inline-block;
-    height: 80vh; /* Adjusted height */
+    height: 95vh; /* Adjusted height */
     width: 900px;
     margin: 20px auto;
     overflow: hidden;
@@ -395,20 +391,23 @@ footer h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 .carousel h2{
     font-size: 50px;
-    color: white;
-    font-weight: 900
+    color: rgb(223, 8, 8);
+    font-weight: 900;
+    
 }
 
 
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
-    color: white;
+    color: rgb(167, 0, 0);
     font-size: 20px;
     font-weight: 900;
+    text-align: center;
+    
 }
 
 .carousel-item {
@@ -549,14 +548,27 @@ main {
     color: #fff;
 }
 
-footer p{
-    font-size: 8px;
-  }
- footer h2{
-  
-    font-size: 10px;
- }
+footer {
+    background: rgb(55,46,213);
+    background: linear-gradient(90deg, rgba(55,46,213,0) 19%, rgba(87,86,214,0.927608543417367) 100%);
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    padding-top: px;
+    position: relative;  
+}
 
+footer p {
+    font-size: 8px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: black;
+}
 
 
 header h1 {
