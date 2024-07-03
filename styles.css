@@ -488,7 +488,7 @@ main {
 
 .content h2{
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .content p{
@@ -603,7 +603,7 @@ section .card1 {
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
-
+margin-top: -250px;
 }
 
 
@@ -617,6 +617,7 @@ section .card2 {
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
+    margin-top: -50px;
 }
 
 
@@ -630,10 +631,12 @@ section .card3 {
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
+   
 }
 
 nav .logo{
     width: 80px;
   border-radius: 0px;
 }
+
 }
