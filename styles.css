@@ -505,7 +505,7 @@ main {
 
 .hero{
     
-    height:15vh;
+   height: auto;
 }
 
 .carousel {
