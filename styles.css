@@ -603,7 +603,7 @@ section .card1 {
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
-margin-top: -250px;
+margin-top: -150px;
 }
 
 
@@ -617,7 +617,7 @@ section .card2 {
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
-    margin-top: -50px;
+    
 }
 
 
