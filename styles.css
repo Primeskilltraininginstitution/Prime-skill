@@ -603,7 +603,7 @@ section .card1 {
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
-margin-top: -150px;
+margin-top: -50px;
 }
 
 
