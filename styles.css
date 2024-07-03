@@ -23,6 +23,41 @@
     align-items: center;
 }
 
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#home .hero, #home .content {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Optional: Set a max-width */
+    margin: 20px auto; /* Center the container */
+}
+
+#home .hero-content, #home .content {
+    text-align: center;
+}
+
+#home h1, #home h2 {
+    font-size: 2em; /* Adjust font size as needed */
+}
+
+#home p {
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 1.6; /* Adjust line height for better readability */
+}
+
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
 header{
    
     background: rgb(55,46,213);
@@ -133,48 +168,7 @@ footer {
     padding-top: 0px;
 }
 
-form {
-    height: 800px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    border: #333 solid;
-    background-image: url('assets/Total Station Operation form.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
-form input {
-    padding: 0.5em;
-    margin-bottom: 1em;
-    border: 3px solid black;
-    border-radius: 5px;
-    width: 400px;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin: 20px 150px;
-    font-weight: 700;
-    
-}
-
-form button {
-    padding: 0.7em;
-    border: none;
-    border-radius: 5px;
-    background: #333;
-    color: #fff;
-    cursor: pointer;
-    width: 150px;
-    margin: 10px 270px;
-}
-
-form button:hover {
-    background: #555;
-}
  
   .container {
     max-width: 100%; 
@@ -358,48 +352,74 @@ form button:hover {
     
   }
 
-  footer{
-    
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    padding-top: 0px;
+    position: relative; 
+}
+
+
+footer {
     background: rgb(55,46,213);
     background: linear-gradient(90deg, rgba(55,46,213,0) 19%, rgba(87,86,214,0.927608543417367) 100%);
-  }
-  footer p{
+}
+
+footer p {
     font-size: 25px;
     color: black;
-  }
- footer h2{
+}
+
+footer h2 {
     margin-bottom: 10px;
     font-size: 30px;
     color: black;
- }
+}
 
 
- .carousel {
+
+.carousel {
     position: relative;
     display: inline-block;
-    width: 100%;
-    max-width: 300px;
+    height: 80vh; /* Adjusted height */
+    width: 900px;
     margin: 20px auto;
     overflow: hidden;
     border-radius: 10px;
-    background-color: #fff;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border: #333 solid 2px;
-margin-bottom: 200px;
-
-
+    background-image: url(assets/IMG-20240621-WA0010.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+ 
+.carousel h2{
+    font-size: 50px;
+    color: white;
+    font-weight: 900
+}
+
 
 .carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
-    
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .carousel-item {
     min-width: 100%;
     padding: 100px;
     box-sizing: border-box;
+}
+
+.carousel-inner h3{
+    font-size: 30px;
 }
 
 button {
@@ -489,43 +509,45 @@ main {
     height:15vh;
 }
 
-form {
-    margin-top: 20px;
+.carousel {
+    height: 80vh; 
+    display: inline-block;
+    overflow: hidden;
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: #333 solid 2px;
+    background-image: url(assets/IMG-20240621-WA0010.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+
+
+.carousel-inner {
     display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    border: #333 solid;
+    transition: transform 0.5s ease;
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.carousel-item {
+    min-width: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.carousel-inner h3{
+    font-size: 30px;
     
 }
 
-form input {
-    padding: 0.5em;
-    margin-bottom: 1em;
-    border: 3px solid black;
-    border-radius: 5px;
-    width: 400px;
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    
-    font-weight: 700;
-    
-}
-
-form button {
-    padding: 0.7em;
-    border: none;
-    border-radius: 5px;
-    background: #333;
+.carousel h2{
+    font-size: 35px;
     color: #fff;
-    cursor: pointer;
-    width: 150px;
-    
-}
-
-form button:hover {
-    background: #555;
 }
 
 footer p{
