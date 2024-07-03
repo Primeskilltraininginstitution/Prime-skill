@@ -28,7 +28,7 @@
 header h1 {
     text-align: center;
     font-size: 40px;
-    margin-right: 400px;
+   
 }
 
 nav{
@@ -477,6 +477,7 @@ footer p{
 header h1 {
     margin: 0;
     font-size: 10px;
+    margin-left: 50px;
 }
 
 .social img {
