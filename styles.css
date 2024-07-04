@@ -520,11 +520,30 @@ main {
     margin-bottom: 10px;
 }
 
+#home h1 {
+    /* Styles for h1 */
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 10px;
+}
 
+#home p {
+    /* Styles for p */
+    font-size: 8px;
+    color: #666;
+    line-height: 1.6;
+}
+
+#home h2 {
+    /* Styles for h2 */
+    font-size: 10px;
+    color: #444;
+    margin-top: 20px;
+}
 
 .hero{
-    
-   height: auto;
+    min-height: 10vh;
 }
 
 .carousel {
