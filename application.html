@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up - Prime Skill Training Institution</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="icon" href="assets/Prime Skill Training Institute Logo-01.jpg" type="image/x-icon">
 </head>
 <body>
@@ -22,9 +23,39 @@
         </nav>
     </header>
     <main>
+        <form action="#" class="container">
+          <h1>Sign up form</h1>
+          
+          <ul>
+            <li>
+              <input type="text" id="fullname" placeholder="Full Name" required />
+            </li>
+            <li>
+              <input type="email" id="mail" placeholder="E-Mail" required/>
+            </li>
+            <li>
+              <input type="text" id="phone" placeholder="Contact No." required />
+            </li>
+            <li>
+              <select id="selectOption" name="selectOption">
+                <option value="ArcGIS">ArcGIS</option>
+                <option value="Surpac">Surpac</option>
+                <option value="AutoCAD">AutoCAD</option>
+                <option value="CGO 02 Post-processing">CGO 02 Post-processing</option>
+                <option value="Model Maker">Model Maker</option>
+                <option value="Computers and Excel (for Surveyors)">Computers and Excel (for Surveyors)</option>
+              </select>
+            </li>
+            <li>
+              <textarea id="message" placeholder="Message" required ></textarea>
+            </li>
+            <li>
+             <input id="submit" type="submit">
+            </li>
+          </ul>
     
-
-    </main>
+        </form>
+      </main>
     <footer>
         <section id="contact">
             <div class="social">
@@ -53,6 +84,6 @@
         </section>
         <p>&copy; 2024 Prime Skill Training Institution. All rights reserved.</p>
     </footer>
+    <script src="enquiry.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
