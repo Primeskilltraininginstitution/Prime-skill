@@ -652,7 +652,8 @@ footer h2 {
 header h1 {
     margin: 0;
     font-size: 10px;
-    margin-left: 70px;
+    width: 100%;
+    padding-left: 10px;
 }
 
 .social img {
@@ -667,7 +668,7 @@ header h1 {
     list-style-type: none;
     text-align: center;
     font-size: 8px;
-    
+   
     }
 
 
