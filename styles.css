@@ -268,7 +268,7 @@ footer {
              background-position: center;
             background-attachment: fixed;
             background-size: contain;
-            background-image: url('assets/FULL\ LOGO.PNG');
+            background-image: url('assets/hhhhh.jpg');
          }
 
          .card3 .face.face1 {
@@ -408,41 +408,57 @@ footer h2 {
     position: relative; /* Make the carousel items relative */
 }
 
-.carousel-inner h3,
-.carousel h4 {
+
+.carousel-container {
+    text-align: center; /* Center child elements horizontally */
+}
+
+.carousel h3 {
     font-size: 30px; /* Set font-size for h3 */
-    color: #fff;
+    color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
     background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
     padding: 10px; /* Add padding */
     border-radius: 5px; /* Add border-radius */
-    display: inline-block; /* Ensure background only covers text */
-    text-align: center;
-   
+    text-align: center; /* Center text within the h3 */
+    margin-top: 30px;
 }
+
 
 .carousel ul{
     font-size: 30px; /* Set font-size for h3 */
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
     background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
-    padding: 10px; /* Add padding */
+    padding: 50px; /* Add padding */
     border-radius: 5px; /* Add border-radius */
-    float: left;
     list-style: none;
+    text-align: center;
+}
+
+.carousel {
+    position: relative; /* Required for absolute positioning of h2 */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align to the top */
+    height: 70vh; /* Set the height of the carousel */
 }
 
 .carousel h2 {
+    position: absolute; /* Position h2 absolutely within the carousel */
+    top: 20px; /* Adjust this value to control vertical spacing from the top */
     font-size: 35px;
-    margin: 10px 0; /* Add margin for spacing */
+    margin: 0px 0; /* Add margin for spacing */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
     background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
     padding: 10px; /* Add padding */
     border-radius: 5px; /* Add border-radius */
-    display: inline-flex; /* Ensure background only covers text */
+    display: inline-block; /* Ensure background only covers text */
     text-align: center;
     color: #fff;
+
 }
+
 
 button {
     position: absolute;
@@ -469,12 +485,7 @@ button:hover {
     right: 10px;
 }
 
-.carousel-item img{
-    width: 200px;
-    
-    
-    
-}
+
 
 .carousel h2{
     text-align: center;
@@ -546,6 +557,7 @@ main {
 .hero{
     min-height: 10vh;
     margin-bottom: 30%;
+    
 }
 
 .carousel {
@@ -580,7 +592,7 @@ main {
     box-sizing: border-box;
     margin-top: -40px;
     text-align: center;
-    
+
 }
 
 .carousel-inner h3{
