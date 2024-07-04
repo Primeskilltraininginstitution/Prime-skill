@@ -448,17 +448,17 @@ button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(9, 21, 192, 0.658);
     color: white;
-    border: black solid 2px;
-    padding: 10px;
+    border: black solid 4px;
+    padding: 15px;
     cursor: pointer;
     border-radius: 50%;
     user-select: none;
 }
 
 button:hover {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(17, 66, 228, 0.514);
 }
 
 .prev {
@@ -520,11 +520,7 @@ main {
     margin-bottom: 10px;
 }
 
-.hero-content p{
-    text-align: center;
-    font-size: 10px;
-    margin-bottom: 10px;
-}
+
 
 .hero{
     
@@ -607,7 +603,7 @@ footer {
 }
 
 footer p {
-    font-size: 8px;
+    font-size: 10px;
     color: black;
     margin-bottom: 10px;
 }
@@ -652,6 +648,7 @@ section .card1 {
     transform-style: preserve-3d;
     perspective: 1000px;
 margin-top: -50px;
+font-size: 9px;
 }
 
 
@@ -665,7 +662,7 @@ section .card2 {
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
-    
+    font-size: 10px;
 }
 
 
@@ -679,7 +676,7 @@ section .card3 {
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
-   
+    font-size: 10px;
 }
 
 nav .logo{
