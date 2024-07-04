@@ -167,7 +167,7 @@ button {
   }
 
   input, textarea, select {
-    font: 2em sans-serif;
+    font-size: 13px;
     width: 100%; /* Make inputs full width */
     box-sizing: border-box;
     border: 2px solid #15055a;
