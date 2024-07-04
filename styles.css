@@ -578,8 +578,9 @@ main {
     min-width: 100%;
     padding: 100px;
     box-sizing: border-box;
-    position: relative;
+    margin-top: -40px;
     text-align: center;
+    
 }
 
 .carousel-inner h3{
