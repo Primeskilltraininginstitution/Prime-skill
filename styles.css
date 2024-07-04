@@ -545,6 +545,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: -80px;
+    
 }
  
 .carousel-inner {
@@ -559,34 +561,40 @@ main {
     min-width: 100%;
     padding: 100px;
     box-sizing: border-box;
-    position: relative; /* Make the carousel items relative */
+    position: relative;
+    text-align: center;
 }
 
-.carousel-inner h3,
-.carousel h2,
-.carousel h4 {
-    font-size: 30px; /* Set font-size for h3 */
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
-    background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
-    padding: 10px; /* Add padding */
-    border-radius: 5px; /* Add border-radius */
-    display: inline-block; /* Ensure background only covers text */
+.carousel-inner h3{
+    font-size: 30px; 
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+
 }
 
 .carousel ul{
-    font-size: 15px; /* Set font-size for h3 */
+    font-size: 15px; 
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
-    background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
-    padding: 10px; /* Add padding */
-    border-radius: 5px; /* Add border-radius */
-    display: inline-block; /* Ensure background only covers text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 40px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    max-height: 50vh;
+    width: 200px;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
 .carousel h2 {
     font-size: 35px;
     text-align: center;
+    margin-left: 50px;
+    margin-bottom: -200px;
 }
 
 footer {
