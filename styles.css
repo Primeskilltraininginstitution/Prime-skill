@@ -526,6 +526,7 @@ main {
     color: #333;
     text-align: center;
     padding-bottom: 10px;
+    margin-top: -15px;
 }
 
 #home p {
@@ -544,6 +545,7 @@ main {
 
 .hero{
     min-height: 10vh;
+    margin-bottom: 30%;
 }
 
 .carousel {
