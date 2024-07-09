@@ -680,12 +680,12 @@ section .card1 {
     align-items: center;
     text-align: center;
     width: 300px;
-    height: 200px;
+    height: 300px;
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
 margin-top: -50px;
-font-size: 9px;
+
 }
 
 
@@ -695,7 +695,7 @@ section .card2 {
     align-items: center;
     text-align: center;
     width: 300px;
-    height: 200px;;
+    height: 300px;;
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -709,7 +709,7 @@ section .card3 {
     align-items: center;
     text-align: center;
     width: 300px;
-    height: 200px;
+    height: 300px;
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -720,6 +720,15 @@ nav .logo{
     width: 80px;
   border-radius: 0px;
   margin-right: 50px;
+}
+
+footer {
+    background: rgb(55,46,213);
+    background: linear-gradient(90deg, rgba(55,46,213,0) 19%, rgba(87,86,214,0.927608543417367) 100%);
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    margin-top: 40px;
 }
 
 }
