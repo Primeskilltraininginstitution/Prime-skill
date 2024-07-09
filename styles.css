@@ -426,11 +426,11 @@ margin-bottom: 160px;
 
 
 .carousel ul{
-    font-size: 30px; /* Set font-size for h3 */
+    font-size: 20px; /* Set font-size for h3 */
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
     background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
-    padding: 50px; /* Add padding */
+    padding: 10px; /* Add padding */
     border-radius: 5px; /* Add border-radius */
     list-style: none;
     text-align: center;
@@ -441,7 +441,7 @@ margin-bottom: 160px;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: flex-start; /* Align to the top */
-    height: 70vh; /* Set the height of the carousel */
+    height: 80vh; /* Set the height of the carousel */
 }
 
 .carousel h2 {
