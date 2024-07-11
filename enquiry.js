@@ -26,18 +26,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
       Email.send({
           Host : "smtp.elasticemail.com",
-          Username : "david@theinsurancebroker.org",
-          Password : "587FA3993986616DB2774CF777AD46D7C363",
-          To : 'david@theinsurancebroker.org',
-          From : "david@theinsurancebroker.org",
-          Subject : "New quotation notification",
+          Username : "primeskilltraining@outlook.com",
+          Password : "7A74CFE47DD54D1761601059C33C85226246",
+          To : 'primeskilltraining@outlook.com',
+          From : "primeskilltraining@outlook.com",
+          Subject : "New Application notification",
           Body : ebody
       }).then(
         message => {
           if (message == "OK"){
             Swal.fire({
               title: "Submitted successfully!",
-              text: "The insurance broker has received your quotation",
+              text: "Prime Skill has recieved your application",
               icon: "success"
             });
             // reset to default after i submit my quote
@@ -55,5 +55,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// 587FA3993986616DB2774CF777AD46D7C363
+// 7A74CFE47DD54D1761601059C33C85226246
 
