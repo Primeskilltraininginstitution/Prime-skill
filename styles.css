@@ -70,6 +70,7 @@ header h1 {
     text-align: center;
     font-size: 25px;
     margin-right: 15%;
+    
 }
 
 .hero{
@@ -389,11 +390,9 @@ footer h2 {
     width: 900px;
     margin: 20px auto;
     overflow: hidden;
-    border: 7px solid black;
-  border-radius: 3em;
-  box-shadow: 1px 1px 8px black;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border: #333 solid 2px;
+    border: 4px solid black;
+    border-radius: 30px;
+    box-shadow: 1px 1px 8px black;
     background-image: url(assets/IMG-20240621-WA0010.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -439,10 +438,14 @@ margin-bottom: 160px;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
     background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
-    padding: 10px; /* Add padding */
+    padding: 20px; /* Add padding */
     border-radius: 5px; /* Add border-radius */
-    list-style: none;
     text-align: center;
+}
+
+.carousel li{
+    list-style: disc;
+    margin-left: 10px;
 }
 
 .carousel {
