@@ -46,8 +46,8 @@ form {
   width: 50%; /* Adjust the width as needed */
   height: auto; /* Adjust the height as needed */
   margin: 0 auto;
-  border: 4px solid rgba(23, 8, 240, 0.39);
-  border-radius: 1em;
+  border: 4px solid black;
+  border-radius: 30px;
   box-shadow: 1px 1px 8px black;
   background: rgb(55,46,213);
   background: linear-gradient(90deg, rgba(55,46,213,0) 19%, rgba(87,86,214,0.927608543417367) 100%);
@@ -157,8 +157,8 @@ button {
     width: 500px; /* Adjust the width as needed */
     height: auto; /* Adjust the height as needed */
     margin: 0 auto;
-    border: 4px solid rgba(23, 8, 240, 0.39);
-    border-radius: 1em;
+    border: 4px solid black;
+    border-radius: 30px;
     box-shadow: 1px 1px 8px black;
     background: rgb(55,46,213);
     background: linear-gradient(90deg, rgba(55,46,213,0) 19%, rgba(87,86,214,0.927608543417367) 100%);
