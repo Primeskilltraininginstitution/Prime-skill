@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
         message => {
           if (message == "OK"){
             Swal.fire({
-              title: "Submitted successfully!",
+              title: "Submitted",
               text: "Prime Skill has recieved your application",
               icon: "success"
             });
