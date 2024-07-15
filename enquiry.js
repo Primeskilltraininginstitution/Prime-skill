@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <br>
       <br>phone: <br>${phone.value}
       <br>
-      <br>Insurance type: <br>${selectOption.value}
+      <br>Short Course: <br>${selectOption.value}
       <br>
       <br>${message.value}
       <br>
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
       Email.send({
           Host : "smtp.elasticemail.com",
           Username : "primeskilltraining@outlook.com",
-          Password : "7A74CFE47DD54D1761601059C33C85226246",
+          Password : "C4C36F8657C0BE5881366034554FAC6DF0CA",
           To : 'primeskilltraining@outlook.com',
           From : "primeskilltraining@outlook.com",
           Subject : "New Application notification",
@@ -55,5 +55,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// 7A74CFE47DD54D1761601059C33C85226246
+// C4C36F8657C0BE5881366034554FAC6DF0CA
 
