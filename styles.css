@@ -16,7 +16,33 @@
     
  }
 
+ svg{
+    display: none;
+ }
 
+  .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px); 
+}
+
+.sidebar li{
+    width: 100%;
+    
+}
+
+.sidebar a{
+    width: 100%;
+    
+}
 
  body {
     min-height: 100vh;
@@ -62,15 +88,28 @@
 }
 
 header{
-   
     background: rgb(55,46,213);
 background: linear-gradient(90deg, rgba(55,46,213,0) 19%, rgba(87,86,214,0.927608543417367) 100%);
 }
-header h1 {
-    text-align: center;
-    font-size: 25px;
-    margin-right: 15%;
+
+.header {
     
+    color: white;
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .15em;
+    
+}
+
+
+.header h1 {
+    color: #000000;
+    margin-left: 10px;
+    text-shadow:2px 2px 4px white;
 }
 
 .hero{
@@ -106,28 +145,45 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0px 3%;
-    border-bottom: 1px solid #000;
     z-index: 10;
 
 }
 
-nav .logo{
-    width: 150px;
-    border-radius: 0px;
+.headlogo img{
+    margin-top: 7.5px;
+    margin-bottom: -6px;
+    margin-left: 20px;
+    width: 100px;
+    box-shadow: 2px 2px 5px white;
+    transition: transform 0.3s ease-in-out; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .headlogo a:hover img {
+    transform: scale(1.5); 
+  }
+
+  
+
+.nav-container {
+    display: flex; 
+    align-items: center; 
+    font-weight: 500;
+    margin-right: 2%;
 }
+
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: none;
     text-align: center;
-    font-size: 15px;
-   
+    margin: 0; 
+    padding: 0; 
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 10px 50px;
-    font-weight: 500;
-    cursor: pointer;
+    display: inline-flex;
+    margin-right: 20px;
 }
 
 nav ul li a {
@@ -136,7 +192,7 @@ nav ul li a {
 }
 nav a:hover {
     color: gold;
-    transform: scale(1.8); 
+    transform: scale(1.2); 
 }
 
     
@@ -514,6 +570,79 @@ button:hover {
     }
 
 
+      svg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-top: 10px;
+     
+      }
+
+    .sidebar{
+        position: fixed;
+        margin-top: 133px;
+        margin-left: 280px;
+        height: 150px;
+        width: 80px;
+        z-index: 999;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        backdrop-filter: (10px); 
+       
+    }
+    
+    .sidebar li{
+        width: 100%;
+        padding-top: 15px;
+        font-weight: 500;
+
+    }
+    
+    .sidebar a{
+        width: 100%;
+        color: black;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+    }
+
+    .nav ul li:nth-child(1) {
+        display: none;
+    }
+
+    .nav ul li:nth-child(2) {
+        display: none;
+    }
+
+    .nav ul li:nth-child(3) {
+        display: none;
+    }
+
+
+    .nav-container {
+        margin-right: 0;
+        display: inline-flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        
+
+    }
+
+    nav ul li {
+      
+        display: inline-flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-size: 12px;  
+      
+    
+    }
+
 main {
 
     min-height: 100vh;
@@ -555,7 +684,7 @@ main {
     /* Styles for p */
     font-size: 8px;
     color: #666;
-    line-height: 1.6;
+    line-height: 1.9;
 }
 
 #home h2 {
@@ -662,8 +791,8 @@ footer h2 {
 
 
 header h1 {
-    margin: 0;
-    font-size: 10px;
+   margin-right: 20px;
+    font-size: 12px;
     width: 100%;
     padding-left: 0px;
    
@@ -678,12 +807,7 @@ header h1 {
     transition: transform 0.3s ease-in-out; 
   }
 
-  nav ul {
-    list-style-type: none;
-    text-align: center;
-    font-size: 8px;
-   
-    }
+ 
 
 
 section .card1 {
@@ -728,11 +852,7 @@ section .card3 {
     font-size: 10px;
 }
 
-nav .logo{
-    width: 80px;
-  border-radius: 0px;
-  margin-right: 50px;
-}
+
 
 footer {
     background: rgb(55,46,213);

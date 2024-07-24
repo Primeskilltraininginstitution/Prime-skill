@@ -33,3 +33,15 @@ function prevSlide(carouselIndex) {
 showSlide(1, 0);
 showSlide(2, 0);
 showSlide(3, 0);
+
+// sidebar menu js
+
+function showSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'flex'
+  }
+  
+function hideSidebar(){
+    const sidebar = document.querySelector('.sidebar')
+    sidebar.style.display = 'none'
+  }
