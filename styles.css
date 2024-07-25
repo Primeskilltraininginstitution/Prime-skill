@@ -569,34 +569,46 @@ button:hover {
         font-size: 4%;
     }
 
+    .nav-container .sidebar ul li:nth-child(1) img {
+        width: 150px;
+
+    }
+    
+    .nav-container .sidebar ul li img[src="assets/icons8-youtube-96.png"] {
+        width: 45px;
+    }
+    
+    
 
       svg{
         display: flex;
         align-items: center;
         justify-content: center;
         align-content: center;
-        margin-top: 10px;
-     
+        margin-left: 70px;
+        
       }
 
     .sidebar{
         position: fixed;
-        margin-top: 133px;
-        margin-left: 280px;
-        height: 150px;
-        width: 80px;
+        margin-top: 0;
+        margin-left: 0;
+        height: 100vh;
+        width: 200px;
         z-index: 999;
         display: none;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        backdrop-filter: (10px); 
+        backdrop-filter: (40px); 
+       
+    
        
     }
     
     .sidebar li{
         width: 100%;
-        padding-top: 15px;
+        padding-top: 55px;
         font-weight: 500;
 
     }
@@ -624,7 +636,7 @@ button:hover {
 
     .nav-container {
         margin-right: 0;
-        display: inline-flex;
+        display: block;
         justify-content: center;
         align-content: center;
         align-items: center;
@@ -634,11 +646,11 @@ button:hover {
 
     nav ul li {
       
-        display: inline-flex;
+        display: block;
         justify-content: center;
         align-content: center;
         align-items: center;
-        font-size: 12px;  
+        font-size: 15px;  
       
     
     }
@@ -791,11 +803,10 @@ footer h2 {
 
 
 header h1 {
-   margin-right: 20px;
+text-align: center;
     font-size: 12px;
     width: 100%;
-    padding-left: 0px;
-   
+   margin-top: 10px;
     
 }
 
