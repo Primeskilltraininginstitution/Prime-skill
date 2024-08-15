@@ -601,9 +601,6 @@ button:hover {
         align-items: flex-start;
         justify-content: flex-start;
         backdrop-filter: (40px); 
-       
-    
-       
     }
     
     .sidebar li{
@@ -640,8 +637,6 @@ button:hover {
         justify-content: center;
         align-content: center;
         align-items: center;
-        
-
     }
 
     nav ul li {
@@ -651,8 +646,6 @@ button:hover {
         align-content: center;
         align-items: center;
         font-size: 15px;  
-      
-    
     }
 
 main {
