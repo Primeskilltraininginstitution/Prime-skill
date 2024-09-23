@@ -57,14 +57,28 @@
         </nav>
     </div>
 </header>
+<h1>Apply today </h1>
     <main>
         <form action="#" class="container">
-          <h1>Apply today </h1>
-          <img src="assets/Prime Skill Training Institute Logo-07.jpg" alt="" class="logo">
+        
+          <img src="assets/Prime Skill Training Institute Logo-01.jpg" alt="" class="logo">
           <ul>
             <li>
-              <input type="text" id="fullname" placeholder="Full Name" required />
+              <input type="text" id="firstname" placeholder="First Name" required />
             </li>
+
+            <li>
+              <input type="text" id="Middlename" placeholder="Middle Name" required />
+            </li>
+
+            <li>
+              <input type="text" id="lastname" placeholder="Last Name" required />
+            </li>
+
+            <li>
+              <input type="text" id="ID" placeholder="NRC No." required />
+            </li>
+            
             <li>
               <input type="email" id="mail" placeholder="E-Mail" required/>
             </li>
@@ -78,15 +92,32 @@
                 <option value="AutoCAD">AutoCAD</option>
                 <option value="Model Maker">Model Maker</option>
                 <option value="CGO 02 Post-processing">CGO 02 Post-processing</option>
-                <option value="CGO 02 Post-processing">Certificate in Land Surveying</option>
-                <option value="Computers and Excel (for Surveyors)">Computers and Excel (for Surveyors)</option>
+                <option value="Certificate in Land Surveying">Certificate in Land Surveying</option>
+                <option value="Other">Other</option>
               </select>
             </li>
             <li>
+              <select id="selectOption1" name="selectOption">
+                <option value="Lusaka">Lusaka</option>
+                <option value="Kitwe">Kitwe</option>
+                <option value="Ndola">Ndola</option>
+                <option value="Chipata">Chipata</option>
+                <option value="Livingstone">Livingstone</option>
+                <option value="Kasama">Kasama</option>
+                <option value="Kabwe">Kabwe</option>
+              </select>
+            </li>
+
+            <li>
+              <textarea id="address" placeholder="Address" required ></textarea>
+            </li>
+            
+            <li>
               <textarea id="message" placeholder="Message" required ></textarea>
             </li>
+
             <li>
-             <input id="submit" type="submit">
+             <input id="submit" type="submit" >
             </li>
           </ul>
     
@@ -95,7 +126,7 @@
     <footer>
         <section id="contact">
             <div class="social">
-                <h2>Contact</h2>
+              <h2>Contact Us</h2>
                   
                 <a href="https://www.facebook.com/people/Prime-Skill-Training-Institute-ZM/61550968889797/" target="_blank">
                   <img src="assets/icons8-facebook-48.png" alt="fb icon">

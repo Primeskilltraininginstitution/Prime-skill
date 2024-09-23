@@ -1,9 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
   
-  const fullname = document.getElementById('fullname');
+  const firstname = document.getElementById('firstname');
+  const middletname = document.getElementById('middlename');
+  const lastname = document.getElementById('lastname');
+  const ID = document.getElementById('ID');
   const mail = document.getElementById('mail');
   const phone = document.getElementById('phone');
   const selectOption = document.getElementById('selectOption');
+  const selectOption1 = document.getElementById('selectOption1');
+  const address = document.getElementById('address');
   const message = document.getElementById('message');
   const submit = document.getElementById('submit');
 
@@ -12,13 +17,23 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('Clicked');
 
       let ebody = `
-      <br>Name: <br>${fullname.value}
+      <br>Name: <br>${firstname.value}
+      <br>
+      <br>Name: <br>${middletname.value}
+      <br>
+      <br>Name: <br>${lastname.value}
+      <br>
+      <br>Name: <br>${ID.value}
       <br>
       <br>Email: <br>${mail.value}
       <br>
       <br>phone: <br>${phone.value}
       <br>
       <br>Short Course: <br>${selectOption.value}
+      <br>
+      <br>Short Course: <br>${selectOption1.value}
+      <br>
+      <br>Short Course: <br>${address.value}
       <br>
       <br>${message.value}
       <br>
@@ -42,7 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             // reset to default after i submit my quote
             message.value ="";
-            fullname.value = "";
+            firstname.value = "";
+            middletname.value = "";
             mail.value = "";
             phone.value = "";
             
